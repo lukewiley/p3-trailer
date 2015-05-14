@@ -2,7 +2,13 @@
 YOUR STYLES
 *******************/
 
+img, video, audio {
+	width: 100%;
+}
 
+video {
+	border: 20px solid red;
+}
 
 
 /********************
