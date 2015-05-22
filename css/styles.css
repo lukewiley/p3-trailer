@@ -1,18 +1,56 @@
 /********************
 YOUR STYLES
 *******************/
+html {
+  background-image: url(../img/metal.jpg)
+
+}
+
+body {
+  width: 1200px;
+  
+  margin: 0 auto;
+
+}
+
+h1 {
+  color: #fff;
+  margin: 20 ;
+  text-align: center;
+}
+
+
 
 img, video, audio {
 	width: 100%;
+
 }
 
 video {
-	border: 20px solid red;
+	
+}
+
+p {
+  color: #fff;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 20px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+h3 {
+  color: #fff;
 }
 
 
 .mejs-treehouse .mejs-controls {
-  background: rgba(56,64,71,0.98);
+  background: rgba(56,64,71,0.3);
   height: 30px;
 }
 
@@ -25,7 +63,7 @@ video {
 }
 
 .mejs-treehouse .mejs-controls .mejs-captions-selector {
-  background: rgba(56,64,71,0.98);
+  background: rgba(56,64,71,0.3);
   width: 100px;
   right: auto;
 }
@@ -37,6 +75,10 @@ video {
 .mejs-treehouse .mejs-controls .mejs-time-rail span {
   height: 100%;
   border-radius: 0px;
+}
+
+.mejs-time-current {
+  background: green;
 }
 
 
